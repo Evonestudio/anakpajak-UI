@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kurs BI | anakpajak.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Pace -->
+	<link href="css/pace.css" rel="stylesheet">
+	
+	<!-- Chosen -->
+	<link href="css/chosen/chosen.min.css" rel="stylesheet"/>
+
+	<!-- Datepicker -->
+	<link href="css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="css/bootstrap-timepicker.css" rel="stylesheet"/>
+	
+	<!-- Slider -->
+	<link href="css/slider.css" rel="stylesheet"/>
+	
+	<!-- Tag input -->
+	<link href="css/jquery.tagsinput.css" rel="stylesheet"/>
+
+	<!-- WYSIHTML5 -->
+	<link href="css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	
+	<!-- Dropzone -->
+	<link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+	
+	<!-- Endless -->
+	<link href="css/endless.min.css" rel="stylesheet">
+	<link href="css/endless-skin.css" rel="stylesheet">
+	
+  </head>
+
+  <body class="overflow-hidden">
+	<!-- Overlay Div -->
+	<div id="overlay" class="transparent"></div>	
+	<div id="wrapper" class="preload">
+		<div id="top-nav" class="skin-6 fixed">
+			<div class="brand">
+				<span>Endless</span>
+				<span class="text-toggle"> Admin</span>
+			</div><!-- /brand -->
+			<button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<button type="button" class="navbar-toggle pull-left hide-menu" id="menuToggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<ul class="nav-notification clearfix">
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-envelope fa-lg"></i>
+						<span class="notification-label bounceIn animation-delay4">7</span>
+					</a>
+					<ul class="dropdown-menu message dropdown-1">
+						<li><a>You have 4 new unread messages</a></li>					  
+						<li>
+							<a class="clearfix" href="#">
+								<img src="img/user.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>John Doe</strong>
+									<p class="no-margin">
+										Lorem ipsum dolor sit amet...
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 27m ago</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="#">
+								<img src="img/user2.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Jane Doe</strong>
+									<p class="no-margin">
+										Lorem ipsum dolor sit amet...
+									</p>
+									<small class="text-muted"><i class="fa fa-check text-success"></i> 5hr ago</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="#">
+								<img src="img/user.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Bill Doe</strong>
+									<p class="no-margin">
+										Lorem ipsum dolor sit amet...
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> Yesterday</small>
+								</div>
+							</a>	
+						</li>
+						<li>
+							<a class="clearfix" href="#">
+								<img src="img/user2.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>Baby Doe</strong>
+									<p class="no-margin">
+										Lorem ipsum dolor sit amet...
+									</p>
+									<small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+								</div>
+							</a>	
+						</li>
+						<li><a href="#">View all messages</a></li>					  
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fa fa-circle-o fa-lg"></i>
+						<span class="notification-label bounceIn animation-delay6">5</span>
+					</a>
+					<ul class="dropdown-menu notification dropdown-3">
+						<li><a href="#">You have 5 new notifications</a></li>					  
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-warning">
+									<i class="fa fa-warning"></i>
+								</span>
+								<span class="m-left-xs">Server #2 not responding.</span>
+								<span class="time text-muted">Just now</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-plus"></i>
+								</span>
+								<span class="m-left-xs">New user registration.</span>
+								<span class="time text-muted">2m ago</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-danger">
+									<i class="fa fa-bolt"></i>
+								</span>
+								<span class="m-left-xs">Application error.</span>
+								<span class="time text-muted">5m ago</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-usd"></i>
+								</span>
+								<span class="m-left-xs">2 items sold.</span>
+								<span class="time text-muted">1hr ago</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="notification-icon bg-success">
+									<i class="fa fa-plus"></i>
+								</span>
+								<span class="m-left-xs">New user registration.</span>
+								<span class="time text-muted">1hr ago</span>
+							</a>
+						</li>
+						<li><a href="#">View all notifications</a></li>					  
+					</ul>
+				</li>
+				<li class="profile dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						<strong>John Doe</strong>
+						<span><i class="fa fa-chevron-down"></i></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a class="clearfix" href="#">
+								<img src="img/user.jpg" alt="User Avatar">
+								<div class="detail">
+									<strong>John Doe</strong>
+									<p class="grey">John_Doe@email.com</p> 
+								</div>
+							</a>
+						</li>
+						<li><a tabindex="-1" href="profile.html" class="main-link"><i class="fa fa-edit fa-lg"></i> Edit profile</a></li>
+						<li><a tabindex="-1" href="gallery.html" class="main-link"><i class="fa fa-picture-o fa-lg"></i> Photo Gallery</a></li>
+						<li><a tabindex="-1" href="#" class="theme-setting"><i class="fa fa-cog fa-lg"></i> Setting</a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i> Log out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /top-nav-->
+		
+		<aside class="fixed skin-1">				
+			<div class="sidebar-inner scrollable-sidebar">
+				<div class="size-toggle">
+					<a class="btn btn-sm" id="sizeToggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="btn btn-sm pull-right logoutConfirm_open"  href="#logoutConfirm">
+						<i class="fa fa-power-off"></i>
+					</a>
+				</div><!-- /size-toggle -->	
+				<div class="user-block clearfix">
+					<img src="img/user.jpg" alt="User Avatar">
+					<div class="detail">
+						<strong>John Doe</strong><span class="badge badge-danger bounceIn animation-delay4 m-left-xs">4</span>
+						<ul class="list-inline">
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="inbox.html" class="no-margin">Inbox</a></li>
+						</ul>
+					</div>
+				</div><!-- /user-block -->
+				<div class="search-block">
+					<div class="input-group">
+						<input type="text" class="form-control input-sm" placeholder="search here...">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-sm" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div><!-- /input-group -->
+				</div><!-- /search-block -->
+				<div class="main-menu">
+					<ul>
+						<li>
+							<a href="index.html">
+								<span class="menu-icon">
+									<i class="fa fa-dashboard fa-lg"></i> 
+								</span>
+								<span class="text">
+									Timeline
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-file-text fa-lg"></i> 
+								</span>
+								<span class="text">
+									Article
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li class="openable">
+							<a href="#">
+								<span class="menu-icon">
+									<i class="fa fa-briefcase fa-lg"></i> 
+								</span>
+								<span class="text">
+									Direktori Pajak
+								</span>
+								<i class="fa fa-angle-left pull-right"></i>
+								<span class="menu-hover"></span>
+							</a>
+							<ul class="submenu">
+								<li><a href="ui_element.html"><span class="submenu-label fa fa-angle-double-right"> Peraturan Pajak</span></a></li>
+								<li><a href="button.html"><span class="submenu-label fa fa-angle-double-right"> Kurs Pajak</span></a></li>
+								<li><a href="tab.html"><span class="submenu-label fa fa-angle-double-right"> KPP</span></a></li>
+								<li><a href="nestable_list.html"><span class="submenu-label fa fa-angle-double-right"> Konsultan</span></a></li>
+								<li><a href="calendar.html"><span class="submenu-label fa fa-angle-double-right"> Tax Center</span></a></li>
+								<li><a href="table.html"><span class="submenu-label fa fa-angle-double-right"> Brevet Pajak</span></a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="timeline.html">
+								<span class="menu-icon">
+									<i class="fa fa-flask fa-lg"></i> 
+								</span>
+								<span class="text">
+									Tanya Pajak
+								</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						<li>
+							<a href="gallery.html">
+								<span class="menu-icon">
+									<i class="fa fa-calendar fa-lg"></i> 
+								</span>
+								<span class="text">
+									Info Pajak
+								</span>
+								<span class="badge badge-danger bounceIn animation-delay6">4</span>
+								<span class="menu-hover"></span>
+							</a>
+						</li>
+						
+					</ul>
+					
+					<div class="alert alert-info">
+						First time using anakpajak.com. 
+					</div>
+				</div><!-- /main-menu -->
+			</div><!-- /sidebar-inner scrollable-sidebar -->
+		</aside>
+
+		<div id="main-container">
+			<div id="breadcrumb">
+				<ul class="breadcrumb">
+					 <li><i class="fa fa-bar-chart-o"></i><a href="index.html"> Kurs Kementerian Keuangan Berdasarkan Mata Uang</a></li>
+ 
+				</ul>
+			</div><!-- breadcrumb -->
+			
+			<div class="padding-md">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="panel panel-default">
+							<div class="panel-body">
+					<!-- Date range -->
+                                    <div class="form-group">
+                                            <label>Mata Uang</label>
+                                            <select class="form-control">
+                                                <option value="AUD" >Dolar Australia</option><option value="BND" >Dolar Brunei D.</option><option value="CAD" >Dolar Canada</option><option value="CHF" >Franc Swiss</option><option value="DKK" >Kroner Denmark</option><option value="EUR" >EURO</option><option value="GBP" >Poundsterling Inggris</option><option value="HKD" >Dolar Hongkong</option><option value="JPY" >Yen Jepang</option><option value="MYR" >Ringgit Malaysia</option><option value="NOK" >Kroner Norwegia</option><option value="NZD" >Dolar Selandia Baru</option><option value="PHP" >Peso Philipina</option><option value="SEK" >Kroner Swedia</option><option value="SGD" >Dolar Singapura</option><option value="THB" >Baht Thailand</option><option value="USD" >Dolar Amerika Serikat</option><option value="PGK" >Kina Papua Nugini</option><option value="KRW" >Korean Won</option><option value="CNY" >Yuan China</option><option value="KWD" >Dinar Kuwait</option><option value="SAR" >Riyad Saudi Arabia</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                        <label>Tanggal</label>    	
+                                    <div class="input-group ">
+										<input type="text" value="06/10/2013" class="datepicker form-control">
+										<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+										</div><br>
+									<div class="input-group">
+										<input type="text" value="06/10/2013" class="datepicker form-control">
+										<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									</div></div>
+							
+									
+									<a class="btn btn-danger block"><i class="fa fa-search"></i> Search</a>
+					</div>
+						</div>
+						<div class="search-options clearfix">
+							<strong style="margin-right:20px;">341 list(s)</strong>
+							Sort by
+							<select class="form-control input-sm" style="display:inline-block; width:100px;">
+								<option value="">Date</option>
+								<option>Name</option>
+								<option>Popular</option>
+							</select>
+
+							<div class="search-pager">
+								<ul class="pagination pagination-sm pagination-split no-margin">
+									<li class="disabled"><a href="#">&laquo;</a></li>
+									<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">&raquo;</a></li>
+								 </ul>
+							</div><!-- /search-pager -->
+						</div><!-- /search-option -->
+
+						 <div class="panel panel-default">
+								<div class="panel-body">
+                                    <h3 class="box-title">Kurs {Mata Uang Kertas/Nilai Transaksi}<p></p> 
+                                    <small><p>Mata Uang : {Dolar Australia [ AUD ]} / 1,-</p>
+                                    <p>Data Pencarian dari tanggal : {24 Jan 2014} sampai {30 January 2014}</p></small></h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body no-padding">
+                                    <table class="table">
+                            <tr>
+                            <td><strong>Tanggal</strong></div></td>
+                            <td><strong>Nilai Jual</strong></div></td>
+                            <td><strong>Nilai Beli</strong></div></td>
+                            <td><strong>Nilai Tengah</strong></div></td>
+                          </tr>
+                           <tr>
+                            <td>
+                            24 Januari 2015</td>
+                            <td>5485.67</td>
+                            <td>4926.72</td>
+                            <td>5206.20</td>
+                          </tr>
+                          <tr>
+                            <td>
+                            29 Januari 2015</td>
+                            <td>5432.65</td>
+                            <td>4883.27</td>
+                            <td>5157.96</td>
+                          </tr>
+                           <tr>
+                            <td>
+                            30 Januari 2015</td>
+                            <td>5387.55</td>
+                            <td>4839.99</td>
+                            <td>5113.77</td>
+                          </tr>
+                          <tr>
+                            <td>
+                            31 Januari 2015</td>
+                            <td>5443.65</td>
+                            <td>4892.07</td>
+                            <td>5167.86</td>
+                          </tr>
+                     </table>
+                                </div><!-- /.box-body -->
+                                <div class="box-footer clearfix">
+                                    <ul class="pagination pagination-sm no-margin pull-right">
+                                        <li><a href="#">&laquo;</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">&raquo;</a></li>
+                                    </ul>
+
+                                </div>
+                            </div><!-- /.box -->
+						
+						
+					</div><!-- /.col -->
+					<div class="col-md-4">
+						<div class="row">
+							<div class="panel panel-default">
+							<div class="panel-heading">Ads</div>
+							<div class="panel-body">
+							<div class="col-md-6">
+								<h5 class="text-muted">Advertisement</h5>
+								<img data-src="holder.js/150x150" alt="Advertisement" src=".">
+							</div><!-- /.col -->
+							<div class="col-md-6">
+								<h5 class="text-muted">Advertise with us</h5>
+								<img data-src="holder.js/150x150" alt="Advertisement" src=".">
+							</div><!-- /.col -->
+							
+							<div class="col-md-12 m-top-md">
+								<a href="#" class="h5 block m-bottom-sm">Wrapbootstrap.com</a>
+								<img data-src="holder.js/350x200" alt="Advertisement" src=".">
+							</div>
+							
+							<div class="col-md-12 m-top-md">
+								<img data-src="holder.js/350x200" alt="Advertisement" src=".">
+							</div>
+							</div>
+						</div>
+						</div><!-- /.row -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.padding-sm -->
+		</div><!-- /main-container -->
+	</div><!-- /wrapper -->
+
+	<a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+	
+	<!-- Logout confirmation -->
+	<div class="custom-popup width-100" id="logoutConfirm">
+		<div class="padding-md">
+			<h4 class="m-top-none"> Do you want to logout?</h4>
+		</div>
+
+		<div class="text-center">
+			<a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+			<a class="btn btn-danger logoutConfirm_close">Cancel</a>
+		</div>
+	</div>
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+	<!-- Chosen -->
+	<script src='js/chosen.jquery.min.js'></script>	
+
+	<!-- Mask-input -->
+	<script src='js/jquery.maskedinput.min.js'></script>	
+
+	<!-- Datepicker -->
+	<script src='js/bootstrap-datepicker.min.js'></script>	
+
+	<!-- Timepicker -->
+	<script src='js/bootstrap-timepicker.min.js'></script>	
+	
+	<!-- Slider -->
+	<script src='js/bootstrap-slider.min.js'></script>	
+	
+	<!-- Tag input -->
+	<script src='js/jquery.tagsinput.min.js'></script>	
+
+	<!-- WYSIHTML5 -->
+	<script src='js/wysihtml5-0.3.0.min.js'></script>	
+	<script src='js/uncompressed/bootstrap-wysihtml5.js'></script>	
+
+	<!-- Dropzone -->
+	<script src='js/dropzone.min.js'></script>	
+	
+	<!-- Modernizr -->
+	<script src='js/modernizr.min.js'></script>
+	
+	<!-- Pace -->
+	<script src='js/pace.min.js'></script>
+	
+	<!-- Popup Overlay -->
+	<script src='js/jquery.popupoverlay.min.js'></script>
+	
+	<!-- Slimscroll -->
+	<script src='js/jquery.slimscroll.min.js'></script>
+	
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+
+	<!-- Endless -->
+	<script src="js/endless/endless_form.js"></script>
+	<script src="js/endless/endless.js"></script>
+	
+  </body>
+</html>
